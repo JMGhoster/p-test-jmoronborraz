@@ -1,0 +1,15 @@
+process:
+  http:
+    port: "8081"
+  
+system:
+  host: "s-test-jmoronborraz-dev.us-e2.cloudhub.io"
+  port: "80"
+  basepath: "/api"
+  protocol: "HTTP"
+  path:
+    getAccounts: "/accounts"
+    getContacts: "/contacts"
+    
+autodiscovery:
+  id: "18679375"
